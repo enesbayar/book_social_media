@@ -1,0 +1,16 @@
+D:\Ders\Web Programlama\User\LoginUser\dist\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Ders\Web Programlama\User\LoginUser\dist\xunit.runner.reporters.netcoreapp10.dll
+D:\Ders\Web Programlama\User\LoginUser\dist\xunit.runner.utility.netcoreapp10.dll
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.UnitTest.deps.json
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.UnitTest.runtimeconfig.json
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.UnitTest.runtimeconfig.dev.json
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.UnitTest.dll
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.UnitTest.pdb
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.csprojAssemblyReference.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.AssemblyInfoInputs.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.AssemblyInfo.cs
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.csproj.CoreCompileInputs.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.csproj.CopyComplete
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.dll
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.pdb
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.UnitTest\obj\Release\netcoreapp3.1\LoginUser.UnitTest.genruntimeconfig.cache

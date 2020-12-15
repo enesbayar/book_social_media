@@ -1,0 +1,12 @@
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\bin\Release\netcoreapp3.1\LoginUser.Domain.deps.json
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\bin\Release\netcoreapp3.1\LoginUser.Domain.dll
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\bin\Release\netcoreapp3.1\LoginUser.Domain.pdb
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.csprojAssemblyReference.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.AssemblyInfoInputs.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.AssemblyInfo.cs
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.csproj.CoreCompileInputs.cache
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.dll
+D:\Ders\Web Programlama\User\LoginUser\LoginUser.Domain\obj\Release\netcoreapp3.1\LoginUser.Domain.pdb
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.Domain.deps.json
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.Domain.dll
+D:\Ders\Web Programlama\User\LoginUser\dist\LoginUser.Domain.pdb

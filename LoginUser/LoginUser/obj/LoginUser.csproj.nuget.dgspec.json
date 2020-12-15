@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\LoginUser.csproj": {}
+  },
+  "projects": {
+    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+        "projectName": "LoginUser.Domain",
+        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+        "projectName": "LoginUser.Operation",
+        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
+                "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNet.Identity.Core": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.DataProtection.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\LoginUser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\LoginUser.csproj",
+        "projectName": "LoginUser",
+        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\LoginUser.csproj",
+        "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
+                "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.CodeCoverage": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.14.7, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "ReportGenerator": {
+              "target": "Package",
+              "version": "[4.7.1, )"
+            },
+            "coverlet.msbuild": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
