@@ -1,0 +1,45 @@
+Starting test execution, please wait...
+Logging Vstest Diagnostics in file: D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\diagnostics.log
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.60]     LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFileChangeTheLikeCount_Success [FAIL]
+  X LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFileChangeTheLikeCount_Success [10ms]
+  Error Message:
+   Assert.True() Failure
+Expected: True
+Actual:   False
+  Stack Trace:
+     at LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFileChangeTheLikeCount_Success() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\FileOperationTest.cs:line 73
+[xUnit.net 00:00:00.71]     LoginUser.UnitTest.FileOperationTest.readControl_Success [FAIL]
+  X LoginUser.UnitTest.FileOperationTest.readControl_Success [< 1ms]
+  Error Message:
+   Assert.True() Failure
+Expected: True
+Actual:   False
+  Stack Trace:
+     at LoginUser.UnitTest.FileOperationTest.readControl_Success() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\FileOperationTest.cs:line 112
+Test Run Failed.
+Total tests: 36
+     Passed: 34
+     Failed: 2
+ Total time: 1.3542 Seconds
+
+Calculating coverage result...
+  Generating report 'D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\project.coverage.xml'
++---------------------+--------+--------+--------+
+| Module              | Line   | Branch | Method |
++---------------------+--------+--------+--------+
+| LoginUser.Domain    | 82.6%  | 100%   | 82.6%  |
++---------------------+--------+--------+--------+
+| LoginUser.Operation | 92.54% | 89%    | 100%   |
++---------------------+--------+--------+--------+
+| LoginUser.UnitTest  | 99.14% | 100%   | 97.29% |
++---------------------+--------+--------+--------+
+
++---------+--------+--------+--------+
+|         | Line   | Branch | Method |
++---------+--------+--------+--------+
+| Total   | 95.36% | 89%    | 94.11% |
++---------+--------+--------+--------+
+| Average | 91.42% | 96.33% | 93.29% |
++---------+--------+--------+--------+
+

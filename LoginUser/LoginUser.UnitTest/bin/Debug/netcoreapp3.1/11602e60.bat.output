@@ -1,0 +1,53 @@
+Starting test execution, please wait...
+Logging Vstest Diagnostics in file: D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\diagnostics.log
+A total of 1 test files matched the specified pattern.
+[xUnit.net 00:00:00.73]     LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFile_Success [FAIL]
+[xUnit.net 00:00:00.75]     LoginUser.UnitTest.FileOperationTest.readControl_Success [FAIL]
+[xUnit.net 00:00:00.76]     LoginUser.UnitTest.FileOperationTest.WriteCommentToFile_Fail [FAIL]
+  X LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFile_Success [4ms]
+  Error Message:
+   System.FormatException : String '01.17.2021testUser' was not recognized as a valid DateTime.
+  Stack Trace:
+     at System.DateTime.ParseExact(String s, String format, IFormatProvider provider)
+   at LoginUser.Operation.FileOperation.ReadTheBookFromFile() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\FileOperation.cs:line 56
+   at LoginUser.UnitTest.FileOperationTest.ReadTheBookFromFile_Success() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\FileOperationTest.cs:line 48
+  X LoginUser.UnitTest.FileOperationTest.readControl_Success [2ms]
+  Error Message:
+   Assert.True() Failure
+Expected: True
+Actual:   False
+  Stack Trace:
+     at LoginUser.UnitTest.FileOperationTest.readControl_Success() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\FileOperationTest.cs:line 112
+  X LoginUser.UnitTest.FileOperationTest.WriteCommentToFile_Fail [1ms]
+  Error Message:
+   Assert.True() Failure
+Expected: True
+Actual:   False
+  Stack Trace:
+     at LoginUser.UnitTest.FileOperationTest.WriteCommentToFile_Fail() in D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\FileOperationTest.cs:line 187
+Test Run Failed.
+Total tests: 32
+     Passed: 29
+     Failed: 3
+ Total time: 1.4673 Seconds
+
+Calculating coverage result...
+  Generating report 'D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.UnitTest\bin\Debug\netcoreapp3.1\fine-code-coverage\project.coverage.xml'
++---------------------+--------+--------+--------+
+| Module              | Line   | Branch | Method |
++---------------------+--------+--------+--------+
+| LoginUser.Domain    | 82.6%  | 100%   | 82.6%  |
++---------------------+--------+--------+--------+
+| LoginUser.Operation | 83.97% | 83%    | 96%    |
++---------------------+--------+--------+--------+
+| LoginUser.UnitTest  | 98.34% | 100%   | 96.96% |
++---------------------+--------+--------+--------+
+
++---------+--------+--------+--------+
+|         | Line   | Branch | Method |
++---------+--------+--------+--------+
+| Total   | 90.24% | 83%    | 92.59% |
++---------+--------+--------+--------+
+| Average | 88.3%  | 94.33% | 91.85% |
++---------+--------+--------+--------+
+

@@ -190,7 +190,6 @@ namespace LoginUser.Operation
         {
             var originalLines = File.ReadAllLines(FILE_PATH + "\\" + "Users.txt");
             int flag = 0;
-            //var readBookList = user.readBookList.Split(",");
             foreach (var originalUserLine in originalLines)
             {
                 string[] userInfo = originalUserLine.Split(";");

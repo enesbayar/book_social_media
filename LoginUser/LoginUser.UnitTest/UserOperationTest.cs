@@ -79,5 +79,62 @@ namespace LoginUser.UnitTest
 
             Assert.Equal("Empty Password", result.message);
         }
+
+        [Fact]
+        public void readListUpdate_Success()
+        {
+
+            Mock<IEncryptService> mockEncrypt = new Mock<IEncryptService>();
+            mockEncrypt.Setup(x => x.Encrypt("test")).Returns("successful");
+            Mock<IFileOperation> mockFile = new Mock<IFileOperation>();
+            mockFile.Setup(x => x.WriteTheReadListToTheFile(It.IsAny<Domain.User>(), It.IsAny<Domain.Book>())).Returns(new Domain.UserOperationResult { isSuccess = true, 
+                message = "readListUpdated" });
+    
+            UserOperation userOperation = new UserOperation(mockEncrypt.Object, mockFile.Object);
+
+            Book book = new Book { userName = "unitTestUserName", bookName = "unitTestBookName", likeCount = 0, comment = "unitTestComment" };
+            User user = new User
+            {
+                eMail = "test@gmail.com",
+                UserName = "testUserName",
+                Name = "test",
+                Password = "AQAAAAEAACcQAAAAEOBSnWVetlKxCaWgfosx7VAdI9agxzPPXYcPInGOcI3lEs / pdVd + TsKZdfgut2JHiw ==",
+                likesBookList = "unitTestBookName",
+                readBookList = "unitTestBookName"
+            };
+
+            UserOperationResult result = userOperation.readListUpdate(user, book);
+
+            Assert.Equal("readListUpdated", result.message);
+        }
+
+        [Fact]
+        public void userInfo_Success()
+        {
+
+            Mock<IEncryptService> mockEncrypt = new Mock<IEncryptService>();
+            mockEncrypt.Setup(x => x.Encrypt("test")).Returns("successful");
+            Mock<IFileOperation> mockFile = new Mock<IFileOperation>();
+            mockFile.Setup(x => x.userInfo(It.IsAny<Domain.LoginRequest>())).Returns(new User
+            {
+                eMail = "test@gmail.com",
+                UserName = "testUserName",
+                Name = "test",
+                Password = "AQAAAAEAACcQAAAAEOBSnWVetlKxCaWgfosx7VAdI9agxzPPXYcPInGOcI3lEs / pdVd + TsKZdfgut2JHiw ==",
+                likesBookList = "unitTestBookName",
+                readBookList = "unitTestBookName"
+            });
+
+            UserOperation userOperation = new UserOperation(mockEncrypt.Object, mockFile.Object);
+            LoginRequest loginRequest = new LoginRequest
+            {
+                userName = "testUserName",
+                password = "AQAAAAEAACcQAAAAEOBSnWVetlKxCaWgfosx7VAdI9agxzPPXYcPInGOcI3lEs / pdVd + TsKZdfgut2JHiw ==",
+            };
+
+            User user = userOperation.userInfo(loginRequest);
+
+            Assert.NotNull(user);
+        }
     }
 }

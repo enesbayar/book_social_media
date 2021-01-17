@@ -72,10 +72,36 @@ namespace LoginUser.UnitTest
         {
 
             Mock<IFileOperation> mockFile = new Mock<IFileOperation>();
-            mockFile.Setup(x => x.ReadTheBookFromFileChangeTheLikeCount(It.IsAny<Domain.Book>())).Returns(new BookResult { isSuccess = true, message = "success"});
+            mockFile.Setup(x => x.ReadTheBookFromFileChangeTheLikeCount(It.IsAny<Domain.Book>(),It.IsAny<Domain.User>())).Returns(new BookResult { isSuccess = true, message = "success"});
             BookOperation bookOperation = new BookOperation(mockFile.Object);
             Book book = new Book();
-            BookResult result = bookOperation.incrementLikeCount(book);
+            User user = new User();
+            BookResult result = bookOperation.incrementLikeCount(book,user);
+
+            Assert.True(result.isSuccess);
+        }
+
+        [Fact]
+        public void writeCommentToFile_Success()
+        {
+            Mock<IFileOperation> mockFile = new Mock<IFileOperation>();
+            mockFile.Setup(x => x.WriteCommentToFile(It.IsAny<Domain.Book>(), It.IsAny<string>())).Returns(new BookResult { isSuccess = true, message = "success" });
+            BookOperation bookOperation = new BookOperation(mockFile.Object);
+            Book book = new Book();
+            BookResult result = bookOperation.WriteCommentToFile(book, "testComment");
+            Assert.True(result.isSuccess);
+        }
+
+        [Fact]
+        public void readControl_Success()
+        {
+
+            Mock<IFileOperation> mockFile = new Mock<IFileOperation>();
+            mockFile.Setup(x => x.readControl(It.IsAny<Domain.User>(), It.IsAny<Domain.Book>())).Returns(new BookResult { isSuccess = true, message = "success" });
+            BookOperation bookOperation = new BookOperation(mockFile.Object);
+            Book book = new Book();
+            User user = new User();
+            BookResult result = bookOperation.readControl(user, book);
 
             Assert.True(result.isSuccess);
         }

@@ -18,10 +18,10 @@ namespace LoginUser.Operation
 
                 case Microsoft.AspNetCore.Identity.PasswordVerificationResult.Success:
                     return ("Password correct");
-                 
+
 
                 default:
-                    throw new ArgumentOutOfRangeException();
+                    throw new ArgumentNullException();
             }
 
         }

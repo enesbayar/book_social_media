@@ -26,5 +26,12 @@ namespace LoginUser.UnitTest
             Assert.Equal("Password incorrect", dec);
         }
 
+        [Fact]
+        public void Encrypt_ThrowException()
+        {
+            IEncryptService encryptService = new EncryptService();
+            Assert.Throws<ArgumentNullException>(() => encryptService.Decrypt(null,"test"));
+        }
+
     }
 }
