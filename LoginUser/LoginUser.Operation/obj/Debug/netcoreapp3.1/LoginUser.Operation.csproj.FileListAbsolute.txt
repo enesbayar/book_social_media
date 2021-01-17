@@ -10,3 +10,15 @@ D:\Ders\Web Programlama\User\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3
 D:\Ders\Web Programlama\User\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Domain.pdb
 D:\Ders\Web Programlama\User\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.csproj.CopyComplete
 D:\Ders\Web Programlama\User\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.csproj.CoreCompileInputs.cache
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Operation.deps.json
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Operation.dll
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Operation.pdb
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Domain.dll
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\bin\Debug\netcoreapp3.1\LoginUser.Domain.pdb
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.csprojAssemblyReference.cache
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.AssemblyInfoInputs.cache
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.AssemblyInfo.cs
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.csproj.CoreCompileInputs.cache
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.csproj.CopyComplete
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.dll
+D:\Ders\Web Programlama\BookSocialMedia\LoginUser\LoginUser.Operation\obj\Debug\netcoreapp3.1\LoginUser.Operation.pdb

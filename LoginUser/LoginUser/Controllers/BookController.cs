@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Cors;
 using LoginUser.Operation;
 using LoginUser.Domain;
 using System.Collections;
+using Newtonsoft.Json.Linq;
 
 namespace LoginUser.Controllers
 {
@@ -36,9 +37,26 @@ namespace LoginUser.Controllers
         }
 
         [HttpPost("Increment")]
-        public BookResult incrementLikeCount([FromBody] Book book)
+        public BookResult incrementLikeCount([FromBody] CompositeObject compositeObject)
         {
-            return bookOperation.incrementLikeCount(book);
+            Book book = compositeObject.book;
+            User user = compositeObject.user;
+            return bookOperation.incrementLikeCount(book, user);
+        }
+
+        [HttpPost("NewComment")]
+        public BookResult writeCommentToFile([FromBody] CompositeBookComment compositeBookComment)
+        {
+            Book book = compositeBookComment.book;
+            string newComment = compositeBookComment.newComment;
+            return bookOperation.WriteCommentToFile(book, newComment);
+        }
+        [HttpPost("ReadControl")]
+        public BookResult readControl([FromBody] CompositeObject compositeObject)
+        {
+            Book book = compositeObject.book;
+            User user = compositeObject.user;
+            return bookOperation.readControl(user, book);
         }
     }
 }

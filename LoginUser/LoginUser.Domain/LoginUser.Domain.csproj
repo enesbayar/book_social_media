@@ -12,6 +12,7 @@
     <PackageReference Include="Microsoft.CodeCoverage" Version="16.7.1" />
     <PackageReference Include="Moq" Version="4.14.7" />
     <PackageReference Include="ReportGenerator" Version="4.7.1" />
+    <PackageReference Include="System.Collections.NonGeneric" Version="4.3.0" />
   </ItemGroup>
 
 </Project>

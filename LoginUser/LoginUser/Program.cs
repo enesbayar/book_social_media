@@ -21,7 +21,7 @@ namespace LoginUser
                 });
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
         WebHost.CreateDefaultBuilder(args)
-        .UseUrls("https://192.168.1.36:5001")
+        .UseUrls("https://192.168.1.39:5001")
         .UseContentRoot(Directory.GetCurrentDirectory())
         .UseIISIntegration()
         .UseStartup<Startup>();

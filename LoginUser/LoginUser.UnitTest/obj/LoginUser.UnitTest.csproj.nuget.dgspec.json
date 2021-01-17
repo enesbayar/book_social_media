@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj": {}
+    "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
+    "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
         "projectName": "LoginUser.Domain",
-        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+        "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
         "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\obj\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -50,6 +50,10 @@
               "target": "Package",
               "version": "[4.7.1, )"
             },
+            "System.Collections.NonGeneric": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "coverlet.msbuild": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -76,14 +80,14 @@
         }
       }
     },
-    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
+    "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
         "projectName": "LoginUser.Operation",
-        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+        "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
         "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\obj\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -99,8 +103,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
-                "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj"
+              "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
+                "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj"
               }
             }
           }
@@ -164,14 +168,14 @@
         }
       }
     },
-    "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj": {
+    "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
+        "projectUniqueName": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
         "projectName": "LoginUser.UnitTest",
-        "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
+        "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
         "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-        "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\obj\\",
+        "outputPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -187,8 +191,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
-                "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj"
+              "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj": {
+                "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj"
               }
             }
           }

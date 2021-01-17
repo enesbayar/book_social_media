@@ -5464,6 +5464,7 @@
       "Microsoft.CodeCoverage >= 16.7.1",
       "Moq >= 4.14.7",
       "ReportGenerator >= 4.7.1",
+      "System.Collections.NonGeneric >= 4.3.0",
       "coverlet.msbuild >= 2.9.0"
     ]
   },
@@ -5473,11 +5474,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+      "projectUniqueName": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
       "projectName": "LoginUser.Domain",
-      "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
+      "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj",
       "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-      "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\obj\\",
+      "outputPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5515,6 +5516,10 @@
           "ReportGenerator": {
             "target": "Package",
             "version": "[4.7.1, )"
+          },
+          "System.Collections.NonGeneric": {
+            "target": "Package",
+            "version": "[4.3.0, )"
           },
           "coverlet.msbuild": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

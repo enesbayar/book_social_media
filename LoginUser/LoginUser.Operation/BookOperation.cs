@@ -30,6 +30,7 @@ namespace LoginUser.Operation
             {
 
                 book.likeCount = 0;
+                book.createdDate = DateTime.Now;
                 fileOperation.WriteTheBookToTheFile(book);
 
                 return new BookResult { isSuccess = true, message = "Book Created" };
@@ -44,9 +45,21 @@ namespace LoginUser.Operation
             return bookList;
         }
 
-        public BookResult incrementLikeCount(Book book)
+        public BookResult incrementLikeCount(Book book, User user)
         {
-            BookResult bookResult = fileOperation.ReadTheBookFromFileChangeTheLikeCount(book);
+            BookResult bookResult = fileOperation.ReadTheBookFromFileChangeTheLikeCount(book, user);
+            return bookResult;
+        }
+
+        public BookResult WriteCommentToFile(Book book, string newComment)
+        {
+            BookResult bookResult = fileOperation.WriteCommentToFile(book, newComment);
+            return bookResult;
+        }
+        
+        public BookResult readControl(User user, Book book)
+        {
+            BookResult bookResult = fileOperation.readControl(user, book);
             return bookResult;
         }
     }

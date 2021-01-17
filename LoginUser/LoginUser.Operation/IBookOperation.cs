@@ -10,7 +10,8 @@ namespace LoginUser.Operation
     {
         BookResult CreateBook(Book book);
         ArrayList ReadBook();
-
-        BookResult incrementLikeCount(Book book);
+        BookResult incrementLikeCount(Book book, User user);
+        BookResult WriteCommentToFile(Book book, string newComment);
+        BookResult readControl(User user, Book book);
     }
 }

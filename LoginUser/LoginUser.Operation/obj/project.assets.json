@@ -1535,7 +1535,8 @@
         "dependencies": {
           "Microsoft.CodeCoverage": "16.7.1",
           "Moq": "4.14.7",
-          "ReportGenerator": "4.7.1"
+          "ReportGenerator": "4.7.1",
+          "System.Collections.NonGeneric": "4.3.0"
         },
         "compile": {
           "bin/placeholder/LoginUser.Domain.dll": {}
@@ -5935,11 +5936,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+      "projectUniqueName": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
       "projectName": "LoginUser.Operation",
-      "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
+      "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\LoginUser.Operation.csproj",
       "packagesPath": "C:\\Users\\Enes\\.nuget\\packages\\",
-      "outputPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Operation\\obj\\",
+      "outputPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Operation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5955,8 +5956,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
-              "projectPath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj"
+            "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj": {
+              "projectPath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.Domain\\LoginUser.Domain.csproj"
             }
           }
         }

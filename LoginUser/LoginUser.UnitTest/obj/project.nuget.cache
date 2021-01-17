@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/H6kYtofbRgDcHWE1olBZbsP+rhhjkSZDeKZNilcrsYHNv5QyoexYXEbgozxYaT2DaeBnHoE27vlfJprCIN7kQ==",
+  "dgSpecHash": "hGMxZjNc68qXmYO3T3EKYOvdLFVtdTMgvjxco/KBuCuNmZxmhUtL0rp43u2980q797Qd2Y9pDzCqY/ZJ7EMTlA==",
   "success": true,
-  "projectFilePath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
+  "projectFilePath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser.UnitTest\\LoginUser.UnitTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Enes\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Enes\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

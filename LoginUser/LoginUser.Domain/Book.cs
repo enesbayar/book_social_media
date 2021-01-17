@@ -10,6 +10,6 @@ namespace LoginUser.Domain
         public string bookName { get; set; }
         public int likeCount { get; set; }
         public string comment { get; set; }
-
+        public DateTime createdDate { get; set; }
     }
 }

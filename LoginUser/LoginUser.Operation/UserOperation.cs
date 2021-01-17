@@ -41,5 +41,17 @@ namespace LoginUser.Operation
             
 
         }
+
+        public UserOperationResult readListUpdate(User user, Book book)
+        {
+            UserOperationResult userOperationResult = fileOperation.WriteTheReadListToTheFile(user, book);
+            return userOperationResult;
+        }
+
+        public User userInfo(LoginRequest loginRequest)
+        {
+            User user = fileOperation.userInfo(loginRequest);
+            return user;
+        }
     }
 }

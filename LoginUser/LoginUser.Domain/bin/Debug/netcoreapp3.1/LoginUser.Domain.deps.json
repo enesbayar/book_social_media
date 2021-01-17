@@ -11,6 +11,7 @@
           "Microsoft.CodeCoverage": "16.7.1",
           "Moq": "4.14.7",
           "ReportGenerator": "4.7.1",
+          "System.Collections.NonGeneric": "4.3.0",
           "coverlet.msbuild": "2.9.0"
         },
         "runtime": {

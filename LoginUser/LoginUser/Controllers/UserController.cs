@@ -29,5 +29,18 @@ namespace LoginUser.Controllers
             return userOperation.CreateUser(user);
         }
 
+        [HttpPost("Read")]
+        public UserOperationResult readListUpdate([FromBody] CompositeObject compositeObject)
+        {
+            User user = compositeObject.user;
+            Book book = compositeObject.book;
+            return userOperation.readListUpdate(user, book);
+        }
+        [HttpPost("UserInfo")]
+        public User userInfo([FromBody] LoginRequest loginRequest)
+        {
+            return userOperation.userInfo(loginRequest);
+        } 
+
     }
 }

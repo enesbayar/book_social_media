@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R197oy1UMMNiYSAJeRPHQOR7zm3rbNTZMMSw6sAiiGe7fukaeDYTZSxl2hJOrO0YrLDCbArvsLVL1jvBg485mQ==",
+  "dgSpecHash": "gC77y4qu1ra8s4+mLB9DnjdY3ZMReR6leHMLf/MncSgvHe0CJQQ1G31e4mqLy1QZ2bEb95dN/fkhDTgypHreYg==",
   "success": true,
-  "projectFilePath": "D:\\Ders\\Web Programlama\\User\\LoginUser\\LoginUser\\LoginUser.csproj",
+  "projectFilePath": "D:\\Ders\\Web Programlama\\BookSocialMedia\\LoginUser\\LoginUser\\LoginUser.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Enes\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Enes\\.nuget\\packages\\coverlet.msbuild\\2.9.0\\coverlet.msbuild.2.9.0.nupkg.sha512",
