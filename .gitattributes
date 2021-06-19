@@ -1,2 +1,2 @@
-*.gs linguist-language=csharp
-*.csharp linguist-detectable=true
+
+*.* linguist-language=csharp
