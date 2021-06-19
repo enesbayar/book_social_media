@@ -1,2 +1,2 @@
 
-*.* linguist-language=Csharp
+*.html linguist-detectable=false
